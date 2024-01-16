@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    vertical-align: middle;
+}
+
 body {
     font-family: 'Mulish';
 }
@@ -59,4 +63,103 @@ nav {
     color: #FF5400;
     transition: .4s;
     font-weight: 700;
+}
+
+
+.banner {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+
+.banner::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+
+.banner-content h2 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 106px;
+}
+
+.banner-content p {
+    width: 676px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 24px;
+    margin-left: 21%;
+
+}
+
+.selector{
+    margin-top: 24px;
+    width: 800px;
+    margin-left: 180px;
+    gap: 5px;
+    padding: 16px 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+
+
+}
+
+.selector input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.5);
+    background: #FFF;
+    border-style: none;
+    text-align: center;
+    border: #FFF;
+
+}
+
+.selector select {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.5);
+    background: #FFF;
+    border-style: none;
+    text-align: center;
+    border: #FFF;
+    
+}
+
+.selector button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    background: #FF5400;
+    border: #FFF;
 }
