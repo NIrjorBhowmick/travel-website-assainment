@@ -285,7 +285,7 @@ nav {
 }
 
 
-.destination-img .overlay{
+.destination-img .overlay {
     position: absolute;
     left: 0;
     top: 0;
@@ -295,12 +295,259 @@ nav {
     border-radius: 16px;
 }
 
-.destination-img .overlay span{
+.destination-img .overlay span {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: #fff;
     font-size: 28px;
     font-weight: 800;
+}
+
+
+.choose-part {
+    margin: 0 auto;
+    max-width: 1250px;
+    min-height: 500px;
+    margin-top: 100px;
+}
+
+.choose-text h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-text p {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-left: 24%;
+}
+
+.threebox {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 24px; */
+}
+
+.firstbox {
+    padding: 32px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.firstbox h3 {
+    margin-top: 32px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.firstbox p {
+    margin-top: 16px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+}
+
+
+.secondbox {
+    padding: 32px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.secondbox h3 {
+    margin-top: 32px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.secondbox p {
+    margin-top: 16px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+}
+
+
+.thredbox {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 32px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.thredbox h3 {
+    margin-top: 32px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.thredbox p {
+    margin-top: 16px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+}
+
+
+
+.loginpart {
+    max-width: 1180px;
+    min-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.login {
+    padding: 40px;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    width: 40%;
+
+}
+
+.login h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.login p {
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+.login input {
+    margin-bottom: 16px;
+    padding: 16px 251px 16px 20px;
+    border: none;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.login button {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+
+.login button:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.log-img {
+    width: 58%;
+}
+
+.log-img img {
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+}
+
+
+.lastpart {
+    padding: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    height: 502px;
+
+}
+
+.lastpart p {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.lasttext {
+
+    display: flex;
+    justify-content: center;
+    padding: ;
+}
+
+
+.lasttext img {
+    width: 48px;
+    height: 56px;
+}
+
+.lasttext h2 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.lasttext h2 span {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.lasttext p {
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.icon {
+    width: 174.322px;
+    height: 24px;
 }
