@@ -13,7 +13,7 @@ img {
 }
 
 body {
-    font-family: 'Mulish';
+    font-family: Mulish;
 }
 
 nav {
@@ -113,7 +113,7 @@ nav {
 
 }
 
-.selector{
+.selector {
     margin-top: 24px;
     width: 800px;
     margin-left: 180px;
@@ -150,7 +150,7 @@ nav {
     border-style: none;
     text-align: center;
     border: #FFF;
-    
+
 }
 
 .selector button {
@@ -162,4 +162,70 @@ nav {
     color: rgba(255, 255, 255, 1);
     background: #FF5400;
     border: #FFF;
+}
+
+.popular-part {
+    max-width: 1180px;
+    min-height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.text-con {
+    width: 50%;
+
+}
+
+.text-con h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.text-con p {
+    margin-top: 24px;
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.text-con ul li {
+    margin-top: 24px;
+    margin-left: 25px;
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.text-con button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 24px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    font-family: Mulish;
+}
+
+
+.image-con {
+    width: 50%;
+
+}
+
+.image-con img {
+    margin-left: 40px;
+    width: 540px;
+    height: 550px;
+    justify-content: space-between;
 }
